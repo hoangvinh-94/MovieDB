@@ -15,13 +15,19 @@ class Movie{
     private var poster: String
     private var overview: String
     private var releaseDate: String
+    private var genres: [Int]
+
     
-    init(id: Int, title: String, poster: String, overview: String, releaseDate: String) {
+    init(id: Int, title: String, poster: String, overview: String, releaseDate: String, genres: [Int]) {
         self.id = id
         self.title = title
         self.poster = poster
         self.overview = overview
         self.releaseDate = releaseDate
+        self.genres = genres
+    }
+    func getId() -> Int{
+        return id;
     }
     func getTitle() -> String{
         return title;

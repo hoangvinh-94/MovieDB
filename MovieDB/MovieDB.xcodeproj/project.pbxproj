@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		608071821ED0033D00B890B1 /* SearchCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608071811ED0033D00B890B1 /* SearchCollectionReusableView.swift */; };
+		608071841ED0158300B890B1 /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608071831ED0158300B890B1 /* MovieDetailViewController.swift */; };
 		F77BC0E71ECC34EE0015D48B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77BC0E61ECC34EE0015D48B /* AppDelegate.swift */; };
 		F77BC0E91ECC34EE0015D48B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77BC0E81ECC34EE0015D48B /* ViewController.swift */; };
 		F77BC0EC1ECC34EE0015D48B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F77BC0EA1ECC34EE0015D48B /* Main.storyboard */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		608071811ED0033D00B890B1 /* SearchCollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchCollectionReusableView.swift; sourceTree = "<group>"; };
+		608071831ED0158300B890B1 /* MovieDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
 		F77BC0E31ECC34EE0015D48B /* MovieDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F77BC0E61ECC34EE0015D48B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F77BC0E81ECC34EE0015D48B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -104,6 +108,8 @@
 				F77BC0E61ECC34EE0015D48B /* AppDelegate.swift */,
 				F77BC0E81ECC34EE0015D48B /* ViewController.swift */,
 				F77BC0EA1ECC34EE0015D48B /* Main.storyboard */,
+				608071831ED0158300B890B1 /* MovieDetailViewController.swift */,
+				608071811ED0033D00B890B1 /* SearchCollectionReusableView.swift */,
 				F77BC11A1ECC44AE0015D48B /* MovieCollectionViewCell.swift */,
 				F77BC0ED1ECC34EE0015D48B /* Assets.xcassets */,
 				F77BC0EF1ECC34EE0015D48B /* LaunchScreen.storyboard */,
@@ -266,8 +272,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F77BC0E91ECC34EE0015D48B /* ViewController.swift in Sources */,
+				608071821ED0033D00B890B1 /* SearchCollectionReusableView.swift in Sources */,
 				F77BC0E71ECC34EE0015D48B /* AppDelegate.swift in Sources */,
 				F77BC1191ECC41EB0015D48B /* Movie.swift in Sources */,
+				608071841ED0158300B890B1 /* MovieDetailViewController.swift in Sources */,
 				F77BC11B1ECC44AE0015D48B /* MovieCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

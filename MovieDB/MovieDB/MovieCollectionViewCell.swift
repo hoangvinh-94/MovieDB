@@ -12,5 +12,5 @@ class MovieCollectionViewCell: UICollectionViewCell {
     
     @IBOutlet var poster: UIImageView!
     @IBOutlet var title: UILabel!
-    @IBOutlet var genre: UILabel!
+    @IBOutlet var releaseDate: UILabel!
 }
