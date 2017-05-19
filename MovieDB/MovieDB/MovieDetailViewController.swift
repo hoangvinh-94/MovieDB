@@ -13,11 +13,13 @@ class MovieDetailViewController: UIViewController {
     
     var image: UIImage?
     var titleF: String?
-    var id: Int?
+    var overview: String?
+    var releaseDate1: String?
     
     @IBOutlet var titleFilm: UILabel!
     
-    @IBOutlet var genreFilm: UILabel!
+    @IBOutlet var releaseDate: UILabel!
+
     @IBOutlet var overviewFilm: UILabel!
     
     @IBOutlet var poster: UIImageView!
@@ -25,8 +27,11 @@ class MovieDetailViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        titleFilm.text = titleF
         poster.image = image
+        titleFilm.text = titleF
+        overviewFilm.text = overview
+        releaseDate.text = releaseDate1
+        
         
     }
 
@@ -35,7 +40,7 @@ class MovieDetailViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    
     /*
     // MARK: - Navigation
 

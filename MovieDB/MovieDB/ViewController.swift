@@ -158,7 +158,6 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
                     OperationQueue.main.addOperation({
                         cell.poster?.image = img
                         cell.title.text = movies.getTitle()
-                        cell.releaseDate.text = movies.getReleaseDate()
                     })
                 }
             }
@@ -174,12 +173,15 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
                 if(searchController.isActive && searchController.searchBar.text != ""){
                     movieDetail.titleF = filteredMovies[indexPath.row].getTitle()
                     movieDetail.image = Downloader.downloadImageWithURL("\(self.prefixImg)\(filteredMovies[indexPath.row].getPoster())")
-                    movieDetail.id = filteredMovies[indexPath.row].getId()
+                    movieDetail.overview = filteredMovies[indexPath.row].getOverview()
+                    movieDetail.releaseDate1 = filteredMovies[indexPath.row].getReleaseDate()
                 }
                 else{
                     movieDetail.titleF = Results[indexPath.row].getTitle()
                     movieDetail.image = Downloader.downloadImageWithURL("\(self.prefixImg)\(Results[indexPath.row].getPoster())")
-                    movieDetail.id = Results[indexPath.row].getId()
+                    movieDetail.releaseDate1 = Results[indexPath.row].getReleaseDate()
+                    movieDetail.overview = Results[indexPath.row].getOverview()
+
                 }
             }
             
